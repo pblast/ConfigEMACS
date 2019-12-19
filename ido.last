@@ -1,0 +1,68 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/pablo/Documentos/Programacion/Librerias/" . "Comandos/")
+ ("/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/" . "inc/")
+ ("/home/pablo/Documentos/Programacion/Ejemplos/" . "Ej1_Modulos/")
+ ("/home/pablo/Documentos/Programacion/" . "Librerias/")
+ ("/home/pablo/Documentos/" . "Programacion/")
+ ("/home/" . "pablo/")
+ ("/" . "home/")
+ ("/home/pablo/.emacs.d/" . "lisp/")
+ ("/home/pablo/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/pablo/.emacs.d/lisp/"
+ "/home/pablo/.emacs.d/"
+ "/home/pablo/Documentos/Programacion/Librerias/Comandos/"
+ "/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/"
+ "/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/inc/"
+ "/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init-rss.el"
+ "init-utils.el"
+ "init.el"
+ "Makefile"
+ "main.h"
+ "settings.el"
+ "custom.el"
+ "main.c"
+ "init-git.el"
+ "init-editing-utils.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/pablo/.emacs.d/lisp/" (24058 15119 959000 0) ".__backups__/" "init-sql.el" "init-misc.el" "init-auto-complete.el" "init-langs.el" "../" "init-gui.el" "init-python.el" "init-elpa.el" "init-modeline.el" "init-ruby.el" "init-rss.el" "init-gfm-timeclock.el" "init-utils.el" "init-javascript.el" "init-php.el" "init-cedet2.el" "fixes/" "./" "init-git.el" "init-theme.el" "init-sessions.el" "init-windows.el" "#init-theme.el#" "init-editing-utils.el" "init-cmode.el" "init-editing-utils.el~" "init-utils.el~" "lib/" "init-compile.el" "#init-elpa.el#" "init-cedet3.el" "init-site-lisp.el" "init-nxml.el" "init-cedet.el")
+
+ ("/home/pablo/.emacs.d/" (24058 15127 515000 0) ".__backups__/" "init.el" "custom.el" "ido.last" "../" "auto-save-list/" "thumbs/" "README.md" "elpa/" "ac-comphist.dat" "extras/" "history" "init.el~" "snippets/" "srecode-map.el" "settings.el~" "emacs.d/" "recentf" "./" ".smex-items" "ede-projects.el" "settings.el" "semanticdb/" "site-lisp/" "custom.el~" ".session" "sessions/" "lisp/")
+
+ ("/home/pablo/" (24058 15127 471000 0) ".elfeed/" ".bashrc" ".wicd/" ".gnupg/" ".emacs.d/" ".claws-mail/" ".local/" "Imágenes/" "Descargas/" ".bash_logout" "Desktop/" ".profile" "../" ".config/" ".mozilla/" ".thumbnails/" "Público/" "Documentos/" ".xsession-errors" ".vboxclient-seamless.pid" ".cache/" ".bash_history" "Música/" ".vboxclient-clipboard.pid" ".xsession-errors.old" ".dmrc" "./" ".emacs.keyfreq" ".vboxclient-display.pid" "Vídeos/" ".vboxclient-draganddrop.pid" "Mail/" "Plantillas/" ".Xauthority")
+
+ ("/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/inc/" (24056 6549 803962 189000) ".__backups__/" "../" "./" "main.h")
+
+ ("/home/pablo/Documentos/Programacion/Librerias/Comandos/" (24056 8806 407095 737000) ".__backups__/" "obj/" "../" "Comandos.so" "src/" "./" "Makefile" "inc/")
+
+ ("/home/pablo/Documentos/Programacion/Librerias/" (24056 8187 128889 870000) "../" "Comandos/" "./")
+
+ ("/home/pablo/Documentos/Programacion/" (24056 8092 991981 890000) "../" "Ejemplos/" "./" "Librerias/")
+
+ ("/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/" (24056 8351 294765 835000) ".__backups__/" "obj/" "../" "README.md" "Ej1Modulos" "src/" ".git/" "./" "Makefile" "inc/" "lib/")
+
+ ("/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/src/" (24056 6762 369626 145000) ".__backups__/" "../" "./" "main.c")
+
+ ("/home/pablo/Documentos/Programacion/Ejemplos/" (24054 49111 944000 0) "../" "./" "Ej1_Modulos/")
+
+ ("/home/pablo/Documentos/" (24054 49041 944000 0) "../" "./" "Programacion/")
+
+ ("/home/" (24052 36838 105605 0) "../" "pablo/" "./" "lost+found/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,4 @@
+;; Se carga el modo git
+
+(requiere 'git)
+(require 'git-blame)

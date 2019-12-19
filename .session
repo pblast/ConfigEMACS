@@ -1,0 +1,40 @@
+;;; Automatically generated on Wed Dec 18 15:46:59 2019
+;;; Invoked by pablo@debian using 26.1
+(setq-default kill-ring '("https://www.incibe.es/protege-tu-empresa/blog" "https://www.incibe-cert.es/feed/avisos-seguridad/all" #("(provide 'init-utils)" 0 1 (face \.\.\. fontified t) 1 8 (face font-lock-keyword-face fontified t) 8 10 (fontified t) 10 20 (face font-lock-constant-face fontified t) 20 21 (face \.\.\. fontified t)) "'(elfeed-feeds
+  (quote
+   (\"https://notxor.nueva-actitud.org/rss.xml\" ; este no lo sigo pero no iba a dejar la mejor mula sin manta :-P
+    ; blogs que sigo
+    \"https://victorhckinthefreeworld.com/feed/\" 
+    \"https://ondahostil.wordpress.com/feed/\"
+    \"https://izaroblog.com/feed/\"
+    \"https://elpinguinotolkiano.wordpress.com/feed/\"
+    \"http://www.lapipaplena.org/feed/\" 
+    \"https://lamiradadelreplicante.com/feed/\" 
+    \"https://colaboratorio.net/feed/\" 
+    \"http://www.maxxcan.com/feed/\" 
+    \"https://mierda.tv/feed/\" 
+    ; (...)
+    ; Psicología
+    \"http://www.infocop.es/AreaRSS/\" 
+    ; (...)
+    ; Linux
+    \"https://lwn.net/headlines/newrss\"
+    ; (...)
+    ; Esperanto
+    \"http://www.esperanto.es/hef/index.php?format=feed&type=rss\" 
+    \"http://www.liberafolio.org/feed/\" 
+    \"http://revuoesperanto.org/rss.xml\"
+    ; (...)
+    ; Divulgación científica
+    \"http://feeds.feedburner.com/CuadernoDeCulturaCientfica\" 
+    \"https://lacienciaysusdemonios.com/feed/\")))"))
+(setq-default session-file-alist '(("~/.emacs.d/lisp/init-rss.el" 853 704 1 nil nil 853 (overwrite-mode)) ("~/.emacs.d/init.el" 1291 1293 1 nil nil 1291 (overwrite-mode)) ("~/.emacs.d/elpa/elfeed-20191206.1637/elfeed-autoloads.el" 4134 nil 1 nil nil 4134 (overwrite-mode)) ("~/.emacs.d/custom.el" 1 nil 1 nil nil 1182 (overwrite-mode)) ("~/Documentos/Programacion/Librerias/Comandos/Makefile" 4041 464 1 nil nil 4155 (overwrite-mode)) ("~/Documentos/Programacion/Ejemplos/Ej1_Modulos/src/main.c" 651 507 1 nil nil 571 (overwrite-mode)) ("~/Documentos/Programacion/Ejemplos/Ej1_Modulos/Makefile" 4076 4126 1 nil nil 4134 (overwrite-mode)) ("~/Documentos/Programacion/Ejemplos/Ej1_Modulos/inc/main.h" 336 122 1 nil nil 337 (overwrite-mode)) ("~/.emacs.d/elpa/git-20140128.1041/git-autoloads.el" 380 nil 1 nil nil 380 (overwrite-mode)) ("~/.emacs.d/elpa/f-20191110.1357/f-autoloads.el" 368 nil 1 nil nil 368 (overwrite-mode)) ("~/.emacs.d/lisp/init-git.el" 65 79 1 nil nil 65 (overwrite-mode)) ("~/.emacs.d/lisp/init-cmode.el" 3144 nil 1 nil nil 3144 (overwrite-mode))))
+(setq-default file-name-history '("/home/pablo/.emacs.d/lisp/init-rss.el" "~/.emacs.d/lisp/init-rss.el" "~/.elfeed/index" "/home/pablo/.emacs.d/lisp/init-utils.el" "/home/pablo/.emacs.d/init.el" "~/.emacs.d/elpa/elfeed-20191206.1637/elfeed-autoloads.el" "~/.emacs.d/custom.el" "/home/pablo/Documentos/Programacion/Librerias/Comandos/Makefile" "/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/Makefile" "/usr/include/stdlib.h" "/usr/include/stdio.h" "/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/inc/main.h" "/home/pablo/.emacs.d/settings.el" "/home/pablo/.emacs.d/custom.el" "/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/src/main.c" "/home/pablo/.emacs.d/lisp/init-git.el" "~/.emacs.d/elpa/git-20140128.1041/git-autoloads.el" "~/.emacs.d/elpa/f-20191110.1357/f-autoloads.el" "/home/pablo/.emacs.d/lisp/init-editing-utils.el" "/home/pablo/.emacs.d/lisp/init-elpa.el" "/home/pablo/.emacs.d/lisp/init-cmode.el" "/home/pablo/.emacs.d/lisp/init-compile.el" "/home/pablo/.emacs.d/lisp/init-windows.el" "~/.emacs.d/init.el" "~/.emacs.d/elpa/session-20120511.0/session-autoloads.el" "~/.emacs.d/elpa/switch-window-20181104.340/switch-window-autoloads.el" "~/.emacs.d/elpa/restart-emacs-20180601.1031/restart-emacs-autoloads.el" "~/.emacs.d/elpa/s-20180406.808/s-autoloads.el" "~/.emacs.d/elpa/async-20191030.2138/async-autoloads.el" "~/.emacs.d/elpa/restclient-20191009.1208/restclient-autoloads.el" "~/.emacs.d/elpa/annotate-20191210.1105/annotate-autoloads.el" "~/.emacs.d/elpa/visual-regexp-20190414.814/visual-regexp-autoloads.el" "~/.emacs.d/elpa/regex-tool-20170104.1918/regex-tool-autoloads.el" "~/.emacs.d/elpa/htmlize-20191111.2130/htmlize-autoloads.el" "~/.emacs.d/elpa/keyfreq-20160516.1416/keyfreq-autoloads.el" "~/.emacs.d/elpa/smex-20151212.2209/smex-autoloads.el"))
+(setq-default search-ring '("elfe"))
+(setq-default buffer-name-history '("init.el" "Makefile" "main.h" "main.c" "settings.el" "custom.el" "*Warnings*" "init-git.el" "init-cmode.el" "init-compile.el" "init-windows.el"))
+(setq-default command-history '((find-file "/home/pablo/.emacs.d/lisp/init-rss.el") (switch-to-buffer "init-rss.el") (elfeed-update) (elfeed) (eval-buffer) (switch-to-buffer "init.el") (find-file "/home/pablo/.emacs.d/lisp/init-utils.el") (find-file "/home/pablo/.emacs.d/init.el") (list-packages nil) (find-file "/home/pablo/Documentos/Programacion/Librerias/Comandos/Makefile") (kill-buffer "Makefile") (find-file "/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/Makefile") (kill-buffer "main.h") (switch-to-buffer "Makefile") (switch-to-buffer "main.h") (find-file "/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/inc/main.h") (switch-to-buffer "main.c") (kill-buffer "settings.el") (find-file "/home/pablo/.emacs.d/settings.el") (kill-buffer "custom.el") (find-file "/home/pablo/.emacs.d/custom.el") (c-mode) (find-file "/home/pablo/Documentos/Programacion/Ejemplos/Ej1_Modulos/src/main.c") (kill-buffer "*Warnings*") (find-file "/home/pablo/.emacs.d/lisp/init-git.el") (kill-buffer "init-git.el") (switch-to-buffer "init-git.el") (find-file "/home/pablo/.emacs.d/lisp/init-editing-utils.el") (find-file "/home/pablo/.emacs.d/lisp/init-elpa.el") (switch-to-buffer "init-cmode.el") (find-file "/home/pablo/.emacs.d/lisp/init-cmode.el") (kill-buffer "init-cmode.el") (kill-buffer "init-compile.el") (find-file "/home/pablo/.emacs.d/lisp/init-compile.el") (kill-buffer "init-windows.el") (find-file "/home/pablo/.emacs.d/lisp/init-windows.el")))
+(setq-default extended-command-history '("elfeed-update" "elfeed" "eval-buffer" "list-packages" "c-mode"))
+(setq-default ido-buffer-history '(#("init-rss.el" 0 11 (face ido-virtual)) "init.el" "Makefile" nil "main.h" "main.c" "settings.el" "custom.el" "*Warnings*" "init-git.el" "init-cmode.el" "init-compile.el" "init-windows.el" "*scratch*" "*Completions*" "*CEDET Global*" "*Compile-Log*" "*Messages*" "*GNU Emacs*"))
+(setq-default ido-file-history '("init-rss.el" "init-utils.el" "init.el" "Makefile" "main.h" "settings.el" "custom.el" "main.c" "init-git.el" "init-editing-utils.el" "init-elpa.el" "init-cmode.el" "init-compile.el" "init-windows.el"))
+(setq-default occur-collect-regexp-history '("\\1"))
+(setq-default smex-history '(elfeed-update elfeed eval-buffer list-packages c-mode cd 5x5))

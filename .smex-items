@@ -1,0 +1,20 @@
+
+;; ----- smex-history -----
+(
+ elfeed-update
+ elfeed
+ eval-buffer
+ list-packages
+ c-mode
+ cd
+ 5x5
+)
+
+;; ----- smex-data -----
+(
+ (eval-buffer . 5)
+ (c-mode . 1)
+ (list-packages . 1)
+ (elfeed . 2)
+ (elfeed-update . 2)
+)

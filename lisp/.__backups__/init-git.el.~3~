@@ -1,0 +1,7 @@
+;; Se carga el modo git
+
+(require 'git)
+(require 'git-blame)
+
+(myemacs/elapsed-time)
+(provide 'init-git)

@@ -1,0 +1,20 @@
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(anzu-deactivate-region t)
+ '(anzu-input-idle-delay 0.1)
+ '(anzu-replace-threshold 1000)
+ '(anzu-replace-to-string-separator " => ")
+ '(anzu-search-threshold 1000)
+ '(package-selected-packages
+	 (quote
+		(whole-line-or-region wc-mode visual-regexp unfill switch-window sml-modeline smex smart-mode-line-powerline-theme session restclient restart-emacs regex-tool rainbow-delimiters page-break-lines multiple-cursors move-dup keyfreq htmlize highlight-symbol highlight-escape-sequences guide-key fullframe focus fill-column-indicator expand-region ecb diminish color-theme-modern browse-kill-ring auto-complete async anzu annotate)))
+ '(session-use-package t nil (session)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

@@ -1,0 +1,27 @@
+(setq elfeed-feeds
+   '("https://notxor.nueva-actitud.org/rss.xml" ; este no lo sigo pero no iba a dejar la mejor mula sin manta :-P
+    ; blogs que sigo
+    "https://victorhckinthefreeworld.com/feed/"
+    "https://ondahostil.wordpress.com/feed/"
+    "https://izaroblog.com/feed/"
+    "https://elpinguinotolkiano.wordpress.com/feed/"
+    "http://www.lapipaplena.org/feed/"
+    "https://lamiradadelreplicante.com/feed/"
+    "https://colaboratorio.net/feed/"
+    "http://www.maxxcan.com/feed/"
+    "https://mierda.tv/feed/"
+
+    ; Linux
+    "https://lwn.net/headlines/newrss"
+
+		; Ciberseguridad
+		"https://www.incibe-cert.es/feed/avisos-seguridad/all"
+		"https://www.incibe.es/protege-tu-empresa/blog"
+		; (...)
+
+    ; Divulgación científica
+    "http://feeds.feedburner.com/CuadernoDeCulturaCientfica"
+    "https://lacienciaysusdemonios.com/feed/"))
+
+(command 'elfeed-update')
+(provide 'init-rss)
